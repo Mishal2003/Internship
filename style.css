@@ -1,5 +1,67 @@
 body {
     font-family: Arial, sans-serif;
+<<<<<<< HEAD
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    padding: 5px;
+    border-left: 4px solid #333;
+    background: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #ddd;
+}
+
+#name {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#name:hover {
+    color: blue;
+=======
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,4 +114,5 @@ button:hover {
 
 button:active {
     background-color: #ccc;
+>>>>>>> 4d98f70 (calculator added)
 }
